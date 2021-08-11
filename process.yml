@@ -1,0 +1,4 @@
+apps:
+  - script: src/index.js
+    name: 'pro-pdf-invoice-backend'
+    instances: 1

@@ -1,0 +1,30 @@
+{
+  "name": "pro-pdf-invoice-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend service for PRO PDF Invoice Opencart module",
+  "author": "Ivan Stasiuk <brokeyourbike@gmail.com>",
+  "homepage": "https://github.com/brokeyourbike/pro-pdf-invoice-backend",
+  "scripts": {
+    "start": "pm2 start process.yml --no-daemon",
+    "stop": "pm2 stop process.yml",
+    "dev": "nodemon --trace-warnings src/index.js",
+    "lint": "standard \"src/**/*.{js,jsx,ts}\"",
+    "lint:fix": "standard --fix \"src/**/*.{js,jsx,ts}\" "
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^5.13.0",
+    "@sentry/node": "^6.11.0",
+    "@sentry/tracing": "^6.11.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "joi": "^17.4.2",
+    "pm2": "^5.1.0",
+    "puppeteer": "^10.2.0"
+  }
+}
