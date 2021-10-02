@@ -1,6 +1,6 @@
 {
   "name": "pro-pdf-invoice-backend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Backend service for PRO PDF Invoice Opencart module",
   "author": "Ivan Stasiuk <brokeyourbike@gmail.com>",
